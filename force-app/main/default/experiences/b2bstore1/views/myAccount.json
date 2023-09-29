@@ -1,0 +1,132 @@
+{
+  "appPageId" : "8e369cd9-0afa-483d-859c-b265baeb1b14",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "6149fcd4-7b76-4436-8b16-60d353bf8c66",
+  "label" : "My Account",
+  "regions" : [ {
+    "id" : "7686f025-3d83-484e-aa17-76cd0ea595f8",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "51af674a-0026-4ef3-a527-0e31d6f579a9",
+          "activeTab" : "tab1",
+          "tabs" : [ {
+            "UUID" : "10d07d98-cff2-4d5c-8432-ccb83d68b5a0",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "recordId" : "{!CurrentUser.effectiveAccountId}"
+              },
+              "fqn" : "forceCommunity:recordDetail"
+            } ],
+            "tabKey" : "tab1",
+            "tabName" : "Account Details"
+          }, {
+            "UUID" : "19a8e53f-1620-4257-a91a-7f886702b7d3",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "recordId" : "{!CurrentUser.effectiveAccountId}"
+              },
+              "fqn" : "forceCommunity:buyerAccountDetail"
+            } ],
+            "tabKey" : "tab2",
+            "tabName" : "Buyer Account Details"
+          }, {
+            "UUID" : "9f0ea6e5-a10c-4c71-b3d4-e817f7a8d346",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "customTitle" : "Addresses",
+                "parentRecordId" : "{!CurrentUser.effectiveAccountId}",
+                "relatedListName" : "ContactPointAddresses",
+                "showBreadCrumbs" : "false",
+                "showCustomTitle" : "true",
+                "showManualRefreshButton" : "false",
+                "showRowNumbers" : "false"
+              },
+              "fqn" : "forceCommunity:relatedList"
+            } ],
+            "tabKey" : "tab3",
+            "tabName" : "Addresses"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "51af674a-0026-4ef3-a527-0e31d6f579a9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!CurrentUser.effectiveAccountId}"
+          },
+          "componentName" : "forceCommunity:recordDetail",
+          "id" : "8d12743b-69e1-41b4-a871-62f926d3e7fe",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "10d07d98-cff2-4d5c-8432-ccb83d68b5a0",
+        "regionLabel" : "Account Details",
+        "regionName" : "tab1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!CurrentUser.effectiveAccountId}"
+          },
+          "componentName" : "forceCommunity:buyerAccountDetail",
+          "id" : "756e5083-3329-4729-bf22-0e4dbf0023ff",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "19a8e53f-1620-4257-a91a-7f886702b7d3",
+        "regionLabel" : "Buyer Account Details",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "customTitle" : "Addresses",
+            "parentRecordId" : "{!CurrentUser.effectiveAccountId}",
+            "relatedListName" : "ContactPointAddresses",
+            "showBreadCrumbs" : false,
+            "showCustomTitle" : true,
+            "showManualRefreshButton" : false,
+            "showRowNumbers" : false
+          },
+          "componentName" : "forceCommunity:relatedList",
+          "id" : "8f73ec0b-a8eb-4ed2-af71-106949db5c6e",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9f0ea6e5-a10c-4c71-b3d4-e817f7a8d346",
+        "regionLabel" : "Addresses",
+        "regionName" : "tab3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "263d1c2b-26fd-463b-9554-6a6bafe1ed71",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ec7a5a84-a136-4952-9437-8661266f8f1f",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "my-account"
+}

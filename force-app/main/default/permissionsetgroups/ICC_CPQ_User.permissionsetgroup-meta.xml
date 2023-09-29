@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The group of permissions for users to enter quotes.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>ICC_CPQ_User</label>
+    <permissionSets>ICC_Approvals_End_user</permissionSets>
+    <permissionSets>SBQQ__SteelBrickCPQUser</permissionSets>
+    <permissionSets>Salesforce_CPQ_AA</permissionSets>
+    <permissionSets>SteelBrickCPQUser</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

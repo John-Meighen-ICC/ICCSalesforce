@@ -1,0 +1,530 @@
+{
+  "activeBrandingSetId" : "85237dd1-fbf1-4d31-8e9a-d5d2b284eb42",
+  "customCSS" : ".footer {\n    background-color: #eee;\n    border-top: 2px solid rgb(0, 56, 118);\n}\n\n.footer .footer-content-center{\n    /*display: block;*/\n    text-align: center;\n    /*width: 100%*/\n}\n\n.footer-social{\n    text-align: right;\n    padding-bottom: 10px;\n}\n \n.footer-social ul.social-icons{\n    list-style: none;\n}\n \n.footer-social .social-icons li{\n    display: inline;\n}\n \n.forceCommunityRichText .footer-social ul>li:before{\n    content: none;\n}\n \n.social-img{\n    width: 30px;\n}",
+  "developerName" : "b2b",
+  "id" : "94d9d33b-423b-4502-a4f6-a39babc8fa55",
+  "label" : "B2B Commerce",
+  "layouts" : {
+    "AeMPOzzjUtRyVDXhwj1AyBGlE5BbEc" : "eb5ea841-defc-462a-9fbe-358a0ee30dd9",
+    "Checkout" : "dcd735d2-e38f-44e2-b88d-93a13bbb03be",
+    "Home" : "911b0a3c-c45a-48f5-834c-d8dbbe5fe43e",
+    "Inner" : "7496a28e-dd45-48ec-8171-c40eed6e3379",
+    "Login" : "c6309e45-4fd9-4e2e-9a15-a0dbb57347e0",
+    "ServiceNotAvailable" : "d292180e-15aa-4c82-934e-c35099f4433f"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "c6309e45-4fd9-4e2e-9a15-a0dbb57347e0",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "6457f8d4-6791-423b-873f-136a9523d204",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "3df7ccce-17fb-47cd-9bbb-9a8b639942d0",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "f59e8f90-edce-4d5f-80ac-a74e7cdd611f",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:b2bBody",
+    "id" : "7496a28e-dd45-48ec-8171-c40eed6e3379",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "backgroundColor" : "#ffffff",
+          "borderBottomColor" : "rgba(255, 255, 255, 0)",
+          "headerWidth" : 1170,
+          "showNotifications" : true
+        },
+        "componentName" : "forceCommunity:themeHeaderB2B",
+        "id" : "a5481b15-81ac-4142-90b9-355b3c43d58c",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "",
+              "buttonBorderColor" : "rgba(0, 0, 0, 0)",
+              "buttonBorderRadius" : 0,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "",
+              "buttonTextHoverColor" : "",
+              "customizableUserProfileMenuEditor" : "Default_User_Profile_Menu",
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"iconAndName\",\"selectedIconSetting\":\"companyLogo\",\"includeCompanyName\":true,\"selectedTextOrientationSetting\":\"left\"}"
+            },
+            "componentName" : "forceCommunity:customizableUserProfileMenu",
+            "id" : "cc6ebd53-b09e-4634-9c20-b8ae53566b3b",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "b4e00c39-9665-4a01-9ebf-33f3fa1cd055",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "",
+              "borderColor" : "",
+              "borderRadius" : "28",
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "",
+              "iconColor" : "",
+              "placeholderText" : "Enter keyword or SKU number",
+              "placeholderTextColor" : "#4a4a4a",
+              "showSearchButton" : true,
+              "showSearchSuggestionsSetup" : true,
+              "suggestionsBackgroundColor" : "rgb(255, 255, 255)",
+              "suggestionsBackgroundHoverColor" : "rgb(249, 249, 250)",
+              "suggestionsDividerColor" : "rgb(217, 219, 221)",
+              "suggestionsTextColor" : "",
+              "suggestionsTextHoverColor" : "",
+              "textColor" : ""
+            },
+            "componentName" : "b2b_search_builder:searchInput",
+            "id" : "2179660f-7d7d-4038-aba4-1d4e1d7ab574",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "7bb8054d-b013-4432-a2d7-6f68b2ea20cc",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "NavigationMenuEditorRefresh" : "ICC_Navigation",
+              "hideAppLauncher" : true,
+              "menuAlignment" : "left"
+            },
+            "componentName" : "forceCommunity:multiLevelNavigation",
+            "id" : "17387846-a25b-41ae-bb80-ae67c7181f90",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "1555fd25-28c9-46e1-9856-75ad71093843",
+          "regionName" : "nav",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "cartCountType" : "TotalProductCount"
+            },
+            "componentName" : "b2b_buyer_builder:cartBadge",
+            "id" : "5bf3cbda-bfbb-4593-8b46-819ca899d3b3",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "edde118c-1e42-463e-a129-95796c8afb65",
+          "regionName" : "cart",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "3437d2b5-9572-4d1a-a5d5-a317a6d1d0a7",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div class=\"footer\">\n    <div class=\"footer-content-center slds-grid slds-wrap\">\n        <div class=\"slds-size_1-of-1 slds-medium-size_1-of-2 slds-p-top_medium\">\n            <div class=\"slds-text-heading_medium\">Products</div>\n            <p><a href=\"https://independentcan.com/resources/catalog\" target=\"_self\" title=\"Online Catalog\">Online Catalog</a></p>\n            <p><a href=\"https://independentcan.com/cookie-tins\" target=\"_self\" title=\"Cookie Tins\">Cookie Tins</a></p>\n            <p><a href=\"https://independentcan.com/popcorn-tins\" target=\"_self\" title=\"Popcorn Tins\">Popcorn Tins</a></p>\n            <p><a href=\"https://independentcan.com/seamless-tins\" target=\"_self\" title=\"Seamless Tins\">Seamless Tins</a></p>\n        </div>\n        <div class=\"slds-size_1-of-1 slds-medium-size_1-of-2\">\n            <div class=\"slds-text-heading_medium slds-p-top_medium\">Company</div>\n            <p><a href=\"https://www.independentcan.com\" target=\"_self\" title=\"Main Site\">Main Site</a>\n            <p><a href=\"https://independentcan.com/contact\" target=\"_self\" title=\"Contact Us\">Contact Us</a></p>\n            <p><a href=\"https://independentcan.com/about\" target=\"_self\" title=\"About ICC\">About ICC</a></p>\n            <p><a href=\"https://independentcan.com/icc-terms\" target=\"_self\" title=\"Term & Condition\">Terms &amp; Conditions</a></p>\n            <p><a href=\"https://independentcan.com/resources/sqf-certification\" target=\"_self\" title=\"Compliance & Certification\">Compliance &amp; Certification</a></p>\n        </div>\n        <div class=\"slds-size_1-of-1 slds-p-around_medium slds-p-bottom_large\">\n\t\t    <p>&copy; 2022 Independent Can Company. All Rights Reserved. <a href=\"https://independentcan.com/privacy-policy\" target=\"_self\" title=\"Privacy Policy\">Privacy Policy</a></p>\n        </div>\n        <div class=\"footer-social\">\n            <ul class=\"social-icons\">\n                <li class=\"social-icon social-facebook\">\n                    <a href=\"https://www.facebook.com/IndependentCanCompany\" target=\"_blank\">\n                        <img class=\"social-img\" src=\"{!contentAsset.facebookSocialIcon.1}\">\n                    </a>\n                </li>\n                <li class=\"social-icon social-instagram\">\n                    <a href=\"https://www.instagram.com/independentcanco/\" target=\"_blank\">\n                        <img class=\"social-img\" src=\"{!contentAsset.instagramSocialIcon.1}\">\n                    </a>\n                </li>\n                <li class=\"social-icon social-youtube\">\n                    <a href=\"https://www.youtube.com/channel/UCTM_K6s4Gx9nB4O8Leji1gg\" target=\"_blank\">\n                        <img class=\"social-img\" src=\"{!contentAsset.youtubeSocialIcon.1}\">\n                    </a>\n                </li>\n                <li class=\"social-icon social-twitter\">\n                    <a href=\"https://twitter.com/independentcan\" target=\"_blank\">\n                        <img class=\"social-img\" src=\"{!contentAsset.twitterSocialIcon.1}\">\n                    </a>\n                </li>\n                <li class=\"social-icon social-linkedin\">\n                    <a href=\"https://www.linkedin.com/company/independent-can-company/\" target=\"_blank\">\n                        <img class=\"social-img\" src=\"{!contentAsset.linkedinSocialIcon.1}\">\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "fb67c528-cea5-4bc9-b0a9-cecb39250637",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "108780f1-3ee6-4020-b1cd-5cc6c46eb8c3",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:b2bBody",
+    "id" : "dcd735d2-e38f-44e2-b88d-93a13bbb03be",
+    "label" : "Checkout",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "forceCommunity:checkoutHeaderWrapper",
+        "id" : "62a2e0eb-9082-4e6d-bc32-437f53ef10fb",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "731e727e-66eb-4343-801d-a9694f7c7705",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "50f7ec7f-2d45-40ea-a1e5-59750179a282",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:b2bBody",
+    "id" : "911b0a3c-c45a-48f5-834c-d8dbbe5fe43e",
+    "label" : "Home",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "borderBottomColor" : "rgba(0, 89, 156, 0)",
+          "headerWidth" : 1170,
+          "showNotifications" : true
+        },
+        "componentName" : "forceCommunity:themeHeaderB2B",
+        "id" : "ae298633-7816-4d58-99c6-2587321513f0",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "buttonBackgroundColor" : "rgb(0, 56, 118)",
+              "buttonBackgroundHoverColor" : "rgb(0, 32, 67)",
+              "buttonBorderColor" : "transparent",
+              "buttonBorderRadius" : 5,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "#fff",
+              "buttonTextHoverColor" : "rgb(255, 255, 255)",
+              "customizableUserProfileMenuEditor" : "Default_User_Profile_Menu",
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"iconAndName\",\"selectedIconSetting\":\"userAvatar\",\"includeCompanyName\":true,\"selectedTextOrientationSetting\":\"left\"}"
+            },
+            "componentName" : "forceCommunity:customizableUserProfileMenu",
+            "id" : "fbd6d7da-de5f-4b40-a750-ae41608eb495",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "eb804b35-cb29-4d07-85e6-4d682e59a052",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "",
+              "borderColor" : "",
+              "borderRadius" : "28",
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "",
+              "iconColor" : "",
+              "placeholderText" : "Enter keyword or SKU number",
+              "placeholderTextColor" : "#4a4a4a",
+              "showSearchButton" : true,
+              "showSearchSuggestionsSetup" : true,
+              "suggestionsBackgroundColor" : "rgb(255, 255, 255)",
+              "suggestionsBackgroundHoverColor" : "rgb(249, 249, 250)",
+              "suggestionsDividerColor" : "rgb(217, 219, 221)",
+              "suggestionsTextColor" : "",
+              "suggestionsTextHoverColor" : "",
+              "textColor" : ""
+            },
+            "componentName" : "b2b_search_builder:searchInput",
+            "id" : "ec8f1061-9a21-4795-a907-62e78bf87d84",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "f55d0698-34f8-409e-898a-5b0240f3600b",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "NavigationMenuEditorRefresh" : "ICC_Navigation",
+              "hideAppLauncher" : true,
+              "menuAlignment" : "left"
+            },
+            "componentName" : "forceCommunity:multiLevelNavigation",
+            "id" : "fb4a86af-9f5a-4445-827f-64b18dc4af6a",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "37fd1442-b6cd-40d7-a9ee-a0c95c4f3f3d",
+          "regionName" : "nav",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "cartCountType" : "TotalProductCount"
+            },
+            "componentName" : "b2b_buyer_builder:cartBadge",
+            "id" : "c6becd06-69c8-45ed-aff9-4fa35fd5bbab",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "4164169e-ca7d-46bb-974f-be13ccde15dd",
+          "regionName" : "cart",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "f81647a1-24c4-4604-b5f1-f4012e46676c",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "bgImage" : "background: rgb(0,56,118) url(/sfsites/c/file-asset/cans?v=1) center center /contain no-repeat",
+          "bgOverlayColor" : "rgba(0, 56, 118, 0.6)",
+          "captionText" : "We Build Brands with Packaging that Sells Product",
+          "captionTextColor" : "rgb(255, 255, 255)",
+          "captionTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "contentAlignment" : "center",
+          "contentWidth" : 70,
+          "ctaBtnOneBgColor" : "",
+          "ctaBtnOneBgHoverColor" : "",
+          "ctaBtnOneBorderColor" : "rgb(255, 255, 255)",
+          "ctaBtnOneOpenNewTab" : false,
+          "ctaBtnOneText" : "ON SALE",
+          "ctaBtnOneTextColor" : "rgb(255, 71, 71)",
+          "ctaBtnOneTextHoverColor" : "rgba(255, 255, 255, 1)",
+          "ctaBtnOneUrl" : "",
+          "ctaBtnRadius" : 0,
+          "ctaBtnTwoBgColor" : "rgb(0, 56, 118)",
+          "ctaBtnTwoBgHoverColor" : "rgb(0, 32, 67)",
+          "ctaBtnTwoBorderColor" : "rgb(255, 255, 255)",
+          "ctaBtnTwoOpenNewTab" : false,
+          "ctaBtnTwoText" : "Contact Support",
+          "ctaBtnTwoTextColor" : "rgb(255, 255, 255)",
+          "ctaBtnTwoTextHoverColor" : "rgba(255, 255, 255, 1)",
+          "ctaBtnTwoUrl" : "",
+          "ctaShowBtnOne" : true,
+          "ctaShowBtnTwo" : true,
+          "fixedHeroWidth" : true,
+          "heroHeight" : 84,
+          "heroWidth" : 1171,
+          "showCaption" : true,
+          "showSubtitle" : true,
+          "showTitle" : true,
+          "subtitleText" : "Independent Can Company has been custom printing and manufacturing premium, specialty, tin packaging for branding and promotion for over 90 years. We have amassed the largest selection of market-tested shapes and sizes. A world leader in the manufacturing of specialty metal packaging and metal lithography, Independent Can handles all manufacturing processes under one roof - controlling the quality and timing of production at every stage of the process.",
+          "subtitleTextColor" : "rgba(255, 255, 255, 1)",
+          "subtitleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "titleText" : "Custom Cans\n",
+          "titleTextColor" : "rgba(255, 255, 255, 1)",
+          "titleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "type" : "callToAction"
+        },
+        "componentName" : "forceCommunity:themeHeroStarter",
+        "id" : "857300b2-a954-4820-9d14-7959e8104ada",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "",
+              "borderColor" : "",
+              "borderRadius" : "0",
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "",
+              "iconColor" : "",
+              "placeholderText" : "Enter keyword or SKU number",
+              "placeholderTextColor" : "#4a4a4a",
+              "showSearchButton" : true,
+              "showSearchSuggestionsSetup" : true,
+              "suggestionsBackgroundColor" : "rgb(255, 255, 255)",
+              "suggestionsBackgroundHoverColor" : "rgb(249, 249, 250)",
+              "suggestionsDividerColor" : "rgb(217, 219, 221)",
+              "suggestionsTextColor" : "",
+              "suggestionsTextHoverColor" : "",
+              "textColor" : ""
+            },
+            "componentName" : "b2b_search_builder:searchInput",
+            "id" : "8a454357-b44c-4a29-a0d1-d5ac70a3b828",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "b8be0acc-d688-46dc-b835-45a27859260c",
+          "regionName" : "search",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "3b814122-2ec8-43ac-8707-2a40cd53755b",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div class=\"footer\">\n    <div class=\"footer-content-center slds-grid slds-wrap\">\n        <div class=\"slds-size_1-of-1 slds-medium-size_1-of-2 slds-p-top_medium\">\n            <div class=\"slds-text-heading_medium\">Products</div>\n            <p><a href=\"https://independentcan.com/resources/catalog\" target=\"_self\" title=\"Online Catalog\">Online Catalog</a></p>\n            <p><a href=\"https://independentcan.com/cookie-tins\" target=\"_self\" title=\"Cookie Tins\">Cookie Tins</a></p>\n            <p><a href=\"https://independentcan.com/popcorn-tins\" target=\"_self\" title=\"Popcorn Tins\">Popcorn Tins</a></p>\n            <p><a href=\"https://independentcan.com/seamless-tins\" target=\"_self\" title=\"Seamless Tins\">Seamless Tins</a></p>\n        </div>\n        <div class=\"slds-size_1-of-1 slds-medium-size_1-of-2\">\n            <div class=\"slds-text-heading_medium slds-p-top_medium\">Company</div>\n            <p><a href=\"https://www.independentcan.com\" target=\"_self\" title=\"Main Site\">Main Site</a>\n            <p><a href=\"https://independentcan.com/contact\" target=\"_self\" title=\"Contact Us\">Contact Us</a></p>\n            <p><a href=\"https://independentcan.com/about\" target=\"_self\" title=\"About ICC\">About ICC</a></p>\n            <p><a href=\"https://independentcan.com/icc-terms\" target=\"_self\" title=\"Term & Condition\">Terms &amp; Conditions</a></p>\n            <p><a href=\"https://independentcan.com/resources/sqf-certification\" target=\"_self\" title=\"Compliance & Certification\">Compliance &amp; Certification</a></p>\n        </div>\n        <div class=\"slds-size_1-of-1 slds-p-around_medium slds-p-bottom_large\">\n\t\t    <p>&copy; 2022 Independent Can Company. All Rights Reserved. <a href=\"https://independentcan.com/privacy-policy\" target=\"_self\" title=\"Privacy Policy\">Privacy Policy</a></p>\n        </div>\n        <div class=\"footer-social\">\n            <ul class=\"social-icons\">\n                <li class=\"social-icon social-facebook\">\n                    <a href=\"https://www.facebook.com/IndependentCanCompany\" target=\"_blank\">\n                        <img class=\"social-img\" src=\"{!contentAsset.facebookSocialIcon.1}\">\n                    </a>\n                </li>\n                <li class=\"social-icon social-instagram\">\n                    <a href=\"https://www.instagram.com/independentcanco/\" target=\"_blank\">\n                        <img class=\"social-img\" src=\"{!contentAsset.instagramSocialIcon.1}\">\n                    </a>\n                </li>\n                <li class=\"social-icon social-youtube\">\n                    <a href=\"https://www.youtube.com/channel/UCTM_K6s4Gx9nB4O8Leji1gg\" target=\"_blank\">\n                        <img class=\"social-img\" src=\"{!contentAsset.youtubeSocialIcon.1}\">\n                    </a>\n                </li>\n                <li class=\"social-icon social-twitter\">\n                    <a href=\"https://twitter.com/independentcan\" target=\"_blank\">\n                        <img class=\"social-img\" src=\"{!contentAsset.twitterSocialIcon.1}\">\n                    </a>\n                </li>\n                <li class=\"social-icon social-linkedin\">\n                    <a href=\"https://www.linkedin.com/company/independent-can-company/\" target=\"_blank\">\n                        <img class=\"social-img\" src=\"{!contentAsset.linkedinSocialIcon.1}\">\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "61232b9a-663f-4191-b178-c8b850eecd86",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "2b7ac96f-ed05-4028-befc-d121c816e11b",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "d292180e-15aa-4c82-934e-c35099f4433f",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "1c8476d1-203e-4918-80cb-00a43327dfe0",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "d4b82165-94fb-4ea0-8bcc-3f2c3464b8a9",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:b2bBody",
+    "id" : "eb5ea841-defc-462a-9fbe-358a0ee30dd9",
+    "label" : "Custom Footer",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "backgroundColor" : "#ffffff",
+          "borderBottomColor" : "rgba(255, 255, 255, 0)",
+          "headerWidth" : 1170,
+          "showNotifications" : true
+        },
+        "componentName" : "forceCommunity:themeHeaderB2B",
+        "id" : "7771e3d8-fda9-43c1-851c-fb1f99717582",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "buttonBackgroundColor" : "rgb(0, 56, 118)",
+              "buttonBackgroundHoverColor" : "rgb(0, 32, 67)",
+              "buttonBorderColor" : "transparent",
+              "buttonBorderRadius" : 5,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "#fff",
+              "buttonTextHoverColor" : "rgb(255, 255, 255)",
+              "customizableUserProfileMenuEditor" : "Default_User_Profile_Menu",
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"iconAndName\",\"selectedIconSetting\":\"companyLogo\",\"includeCompanyName\":true,\"selectedTextOrientationSetting\":\"left\"}"
+            },
+            "componentName" : "forceCommunity:customizableUserProfileMenu",
+            "id" : "bf0f267f-c21a-42d0-a2d4-8864d60dc712",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "d8edbeaf-6c2d-42a3-bcf1-8aac204e1bb1",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "",
+              "borderColor" : "",
+              "borderRadius" : "10",
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "",
+              "iconColor" : "",
+              "placeholderText" : "Enter keyword or SKU number",
+              "placeholderTextColor" : "#4a4a4a",
+              "showSearchButton" : true,
+              "showSearchSuggestionsSetup" : true,
+              "suggestionsBackgroundColor" : "rgb(255, 255, 255)",
+              "suggestionsBackgroundHoverColor" : "rgb(249, 249, 250)",
+              "suggestionsDividerColor" : "rgb(217, 219, 221)",
+              "suggestionsTextColor" : "",
+              "suggestionsTextHoverColor" : "",
+              "textColor" : ""
+            },
+            "componentName" : "b2b_search_builder:searchInput",
+            "id" : "5f08fd4e-63e8-499a-955f-317309bb2f41",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "d2292f99-6add-49ed-b889-3ad9834cdbba",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "NavigationMenuEditorRefresh" : "",
+              "hideAppLauncher" : true,
+              "menuAlignment" : "left"
+            },
+            "componentName" : "forceCommunity:multiLevelNavigation",
+            "id" : "9680799e-70bb-4d53-8adf-1e0f43ee1568",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "aa2f224c-1512-4e69-8487-c819e73367f8",
+          "regionName" : "nav",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "cartCountType" : "TotalProductCount"
+            },
+            "componentName" : "b2b_buyer_builder:cartBadge",
+            "id" : "04fb6ccc-0756-44eb-81e6-8de0b5277d2b",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "5098e62d-f158-4905-8d39-ad2fb08d6db9",
+          "regionName" : "cart",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "1bdd2c7e-0e84-4873-a326-208cc194b901",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "0e443c2b-86a9-4e58-9e08-7cfe996e7b97",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    }, {
+      "id" : "c6b18347-bf6c-4098-b91b-df6a852e0e19",
+      "regionName" : "themeHero",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

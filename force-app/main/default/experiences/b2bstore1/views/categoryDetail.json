@@ -1,0 +1,102 @@
+{
+  "appPageId" : "8e369cd9-0afa-483d-859c-b265baeb1b14",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "de7a48e6-39ce-42d9-88fc-402488297d12",
+  "label" : "Category Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundColor" : "rgba(0,0,0,0)",
+        "height" : 200,
+        "layout" : "cover",
+        "position" : "center center"
+      },
+      "componentName" : "b2b_buyer_builder:categoryBanner",
+      "id" : "15a674a4-8765-4a19-96a7-1508cd78b551",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a4e0aefa-dc8a-4e20-a9d5-fdd6f435fcca",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "addToCartButtonBackgroundColor" : "",
+        "addToCartButtonBackgroundHoverColor" : "",
+        "addToCartButtonBorderColor" : "",
+        "addToCartButtonBorderRadius" : "0",
+        "addToCartButtonText" : "ADD TO CART",
+        "addToCartButtonTextColor" : "",
+        "addToCartButtonTextHoverColor" : "",
+        "breadcrumbsColor" : "",
+        "breadcrumbsFontSize" : "small",
+        "cardAlignment" : "center",
+        "cardBackgroundColor" : "",
+        "cardBorderColor" : "rgba(255, 255, 255, 0)",
+        "cardBorderRadius" : "0",
+        "cardContentMapping" : "[{\"name\":\"Name\",\"showLabel\":false,\"label\":\"Product Name\",\"displayName\":\"Product Name\",\"type\":\"STRING\",\"fontSize\":\"medium\",\"fontColor\":\"#333\"},{\"name\":\"VariationAttributes\",\"showLabel\":false,\"label\":\"Variation Attributes\",\"displayName\":\"More options available\",\"type\":\"VARIATION\",\"fontSize\":\"medium\",\"fontColor\":\"#333\"},{\"name\":\"Ecomm_Description__c\",\"showLabel\":false,\"label\":\"Ecomm Description\",\"displayName\":\"Ecomm Description\",\"type\":\"STRING\",\"fontSize\":\"small\",\"fontColor\":\"#333\"},{\"name\":\"Total_Quantity_On_Hand_Value__c\",\"showLabel\":true,\"label\":\"Availability\",\"displayName\":\"Availability\",\"type\":\"STRING\",\"fontSize\":\"small\",\"fontColor\":\"#333\"}]",
+        "cardDividerColor" : "rgb(221, 219, 218)",
+        "gridColumnSpacing" : "small",
+        "gridMaxColumnsDisplayed" : "4",
+        "gridRowSpacing" : "large",
+        "incrementQuantityGuideText" : "Sold in cartons of {0}",
+        "listRowSpacing" : "small",
+        "maximumQuantityGuideText" : "Maximum quantity is {0}",
+        "minimumQuantityGuideText" : "Minimum quantity is {0}",
+        "negotiatedPriceTextColor" : "",
+        "negotiatedPriceTextSize" : "medium",
+        "noResultsRichText" : "<br><br><h1> No results found </h1><br><h2>Try these search tips instead:</h2><br><ol><li>Check your spelling</li><li>Search by product type, SKU, or feature</li><li>Broaden your search using fewer or more general words</li></ol>",
+        "originalPriceTextColor" : "",
+        "originalPriceTextSize" : "small",
+        "pageResultsType" : "productList",
+        "pageTitleFontColor" : "",
+        "pageTitleFontSize" : "large",
+        "quantitySelectorLabelText" : "QTY",
+        "resultsLayout" : "grid",
+        "showAddToCartButton" : true,
+        "showBreadCrumbs" : true,
+        "showNegotiatedPrice" : true,
+        "showNoSearchResults" : false,
+        "showOriginalPrice" : true,
+        "showProductImage" : true,
+        "showQuantityRulesSetup" : true,
+        "showQuantityRulesText" : true,
+        "showSearchSortingMenuSetup" : true,
+        "viewOptionsButtonText" : "VIEW OPTIONS"
+      },
+      "componentName" : "b2b_search_builder:resultsDisplay",
+      "id" : "b5cbbdc4-7965-46b8-a0b2-730668e747a0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cf5bce6e-cd75-4c0d-ba77-4c6ebc11bcda",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "727c3a55-8080-48bf-ac08-9a5d3272ad12",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3f3485d2-8ad5-49cb-8393-512cbabf933f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "550cfb08-035f-4918-8c46-b6ae18809ead",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0ZG"
+}

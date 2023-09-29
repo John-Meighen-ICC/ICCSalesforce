@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>for access to Pardot</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Pardot Access for Marketing</label>
+    <permissionSets>force__B2BMarketingAnalytics</permissionSets>
+    <permissionSets>force__SalesUserPsl</permissionSets>
+    <permissionSets>pi__Pardot</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

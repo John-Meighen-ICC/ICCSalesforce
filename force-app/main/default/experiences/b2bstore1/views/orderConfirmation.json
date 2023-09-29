@@ -1,0 +1,73 @@
+{
+  "appPageId" : "8e369cd9-0afa-483d-859c-b265baeb1b14",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e4a41703-c903-4eb5-ae6c-42aeff67b12f",
+  "label" : "Order Confirmation",
+  "regions" : [ {
+    "id" : "2c7c8bea-d87a-41d4-bcbd-a4dabc2c96de",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "confirmationHeader" : "Thank You for Shopping with Independent Can Company",
+        "orderSummaryId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:commerceOrderConfirmation",
+      "id" : "a4fda243-4b72-426f-b6a8-1fa5f9124910",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "cartId" : "{!recordId}",
+        "isReadOnly" : true,
+        "orderDeliveryMethodId" : ""
+      },
+      "componentName" : "commerce_checkout:deliveryMethod",
+      "id" : "4053c3aa-508e-40f3-a895-c5753979104c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "cartId" : "",
+        "showDiscount" : true,
+        "showShipping" : true,
+        "showSubtotal" : true,
+        "showTax" : true,
+        "showTotal" : true
+      },
+      "componentName" : "forceCommunity:commerceCheckoutSummary",
+      "id" : "c080a220-ab15-4c1a-b82c-039c4483e2dc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "cartId" : "",
+        "contactPointAddressId" : "",
+        "readonly" : true,
+        "shippingInstructions" : "",
+        "showShipAddress" : true,
+        "showShippingInstructions" : true
+      },
+      "componentName" : "forceCommunity:commerceDelivery",
+      "id" : "926f984c-b70f-482f-a437-51b26157ce85",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6bdedb9b-40e9-4450-af2e-679f9b728ae9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "71b7e67c-c60b-49ec-b4e8-14eb61845692",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "orderconfirmation"
+}
